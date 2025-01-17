@@ -1,0 +1,60 @@
+/* Welcome page container */
+:root {
+    --primary-color: #272EA7;
+    --secondary-color: #272EA766;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+    --accent-color: #e74c3c;
+  }
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center logo and loader */
+    height: 100vh;
+    background: linear-gradient(to bottom, var(--background-color), var(--secondary-color)); /* Gradient background */
+    text-align: center;
+    padding: 20px; /* Add padding to avoid content touching edges */
+    box-sizing: border-box;
+    position: relative; /* Ensure positioning context for the text */
+  }
+  
+  /* Logo styling */
+  .welcome-logo {
+    width: 200px; /* Adjust size as needed */
+    margin-bottom: 20px; /* Space between logo and loader */
+  }
+  
+  /* Loader styling */
+  .loader {
+    width: 40px;
+    height: 40px;
+    border: 5px solid #d3d3f8; /* Light border color */
+    border-top: 5px solid var(--primary-color); /* Darker border for spinning effect */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 20px 0; /* Space between loader and text */
+  }
+  
+  /* Loader animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Text styling */
+  .welcome-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 20px; /* Fixed position at the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center text horizontally */
+  }
+  

@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #272EA7;
+    --secondary-color: #272EA766;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+    --accent-color: #e74c3c;
+  }
+
+/* OTPVerification.css */
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    height: 100vh;
+  }
+  
+  .go-back {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .go-back span {
+    margin-right: 5px;
+  }
+  
+  .otp-content {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .otp-form {
+    margin-bottom: 20px;
+  }
+  
+  .otp-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .otp-box {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .otp-box:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 4px rgba(108, 99, 255, 0.6);
+  }
+  
+  .resend-code {
+    font-size: 14px;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .continue-button:hover {
+    background-color: #5a53d6;
+  }
+  
+  .login-link {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .login-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  .continue-button {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    margin-top: 100px;
+  }
+  
+  .continue-button.enabled {
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .continue-button.disabled {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    cursor: not-allowed;
+  }
+  

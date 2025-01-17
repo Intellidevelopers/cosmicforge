@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #272EA7;
+    --secondary-color: #272EA766;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+    --accent-color: #e74c3c;
+  }
+
+
+/* Registration.css */
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    height: 100vh;
+  }
+  
+  .go-back {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .go-back span {
+    margin-right: 5px;
+  }
+  
+  .registration-content {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .registration-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #6c63ff;
+  }
+  
+  .error {
+    color: #ff6b6b;
+    font-size: 12px;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .checkbox-group input {
+    margin-right: 10px;
+  }
+  
+  .checkbox-group a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  
+  .checkbox-group a:hover {
+    text-decoration: underline;
+  }
+  
+  .submit-button {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #5a53d6;
+  }
+  
+  .login-link {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .login-link a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+
+  
+  .submit-button:hover {
+    background-color: var(--primary-color);
+  }
+  
+  .submit-button.inactive {
+    background-color: #cccccc; /* Light gray for inactive state */
+    color: #666666; /* Gray text color */
+    cursor: not-allowed; /* Prevents interaction */
+  }
+  
+
+  .password-progress-bar {
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: #e0e0e0;
+    overflow: hidden;
+  }
+  
+  .password-progress-bar::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+  }
+  
+  .password-progress-bar::-webkit-progress-value {
+    background-color: #4caf50;
+    border-radius: 4px;
+  }
+  
+  .password-progress-bar::-moz-progress-bar {
+    background-color: #4caf50;
+    border-radius: 4px;
+  }
+  
+  .password-strength-label {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.85rem;
+    text-align: right;
+    color: #555;
+  }
+  
+  .password-strength-container {
+    margin-top: 10px;
+  }
+  
+  .password-progress-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    appearance: none;
+    background-color: var(--progress-color, gray);
+  }
+  
+  .password-progress-bar::-webkit-progress-value {
+    background-color: var(--progress-color, gray);
+    border-radius: 5px;
+  }
+  
+  .password-progress-bar::-webkit-progress-bar {
+    border-radius: 5px;
+    background-color: #e0e0e0; /* Default background */
+  }
+  
+  .password-strength-label {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .password-validation-text{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
