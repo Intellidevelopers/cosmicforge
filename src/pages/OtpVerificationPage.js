@@ -58,7 +58,7 @@ const OTPVerification = () => {
         />
         <h2>OTP Code</h2>
         <p>
-          We sent you a 6-digit code via your number <b style={{ color: "#000" }}>+234 1234 5676</b>
+          We sent you a 6-digit code via your email address <b style={{ color: "#000" }}>cosmicforge@gmail.com</b>
         </p>
         <form onSubmit={handleSubmit(onSubmit)} className="otp-form">
           <div className="otp-inputs">

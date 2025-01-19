@@ -60,7 +60,7 @@ const Registration = () => {
             )}
           </div>
           {/* Email */}
-          <div className="form-group">
+          {/* <div className="form-group">
             <input
               type="email"
               placeholder="Email"
@@ -75,7 +75,7 @@ const Registration = () => {
             {errors.email && (
               <span className="error">{errors.email.message}</span>
             )}
-          </div>
+          </div> */}
           {/* Password */}
           <div className="form-group">
             <input
